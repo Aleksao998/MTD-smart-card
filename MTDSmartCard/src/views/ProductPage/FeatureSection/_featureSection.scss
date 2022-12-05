@@ -1,0 +1,21 @@
+.m-t-0P{
+    padding-top: 0px!important;
+}
+
+.productImage{
+    max-width: 40%;
+}
+.noPadding{
+    padding-top: 20px!important;
+}
+.icon{
+    font-size: 40px!important;
+}
+@media only screen and (max-width: 768px) {
+    .productImage{
+        max-width: 80%;
+    }
+    .noPadding{
+        padding-top: 5px!important;
+    }
+}

@@ -1,0 +1,51 @@
+.page-header .filter::after {
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+body {
+  color: #050505 !important;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 750px) {
+  .dropdown.show .dropdown-menu[x-placement="bottom-start"] {
+    display: contents;
+  }
+}
+
+.dropdown.show .dropdown-menu[x-placement="bottom-start"] {
+  margin-top: 25px;
+}
+
+.buyBanner {
+  background-color: #e1e1e1c5 !important;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+}
+
+.buyBannerText {
+  padding-top: 11px;
+  text-align: right;
+  margin-right: -15px;
+}
+
+.buyBannerClosingButton {
+  font-size: 35px;
+  padding-top: 6px !important;
+  padding-right: 20px !important;
+}
+
+.buyBannerMTDLogo {
+  color: #669db3ff;
+}

@@ -1,0 +1,85 @@
+{
+  "homepage": "http://mtdsmartcard.com",
+  "name": "paper-kit-react",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@popperjs/core": "^2.1.1",
+    "axios": "^0.19.2",
+    "classnames": "2.2.6",
+    "file-saver": "^2.0.2",
+    "font-awesome": "^4.7.0",
+    "form-data": "^3.0.0",
+    "history": "^4.10.1",
+    "lodash.throttle": "^4.1.1",
+    "moment": "2.24.0",
+    "node-sass": "^4.14.1",
+    "nouislider": "13.1.5",
+    "query-string": "^6.12.1",
+    "react": "16.8.6",
+    "react-alert": "^7.0.1",
+    "react-alert-template-basic": "^1.0.0",
+    "react-avatar-edit": "^0.8.3",
+    "react-avatar-editor": "^12.0.0-beta.0",
+    "react-bootstrap-switch": "15.5.3",
+    "react-datetime": "2.16.3",
+    "react-dom": "16.8.6",
+    "react-facebook-login": "^4.1.1",
+    "react-loader-spinner": "^3.1.5",
+    "react-modal": "^3.11.2",
+    "react-player": "^2.5.0",
+    "react-redux": "^7.2.0",
+    "react-router": "5.0.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.3",
+    "react-spinner": "^0.2.7",
+    "react-spinners": "^0.8.1",
+    "reactstrap": "8.0.0",
+    "redux": "^4.0.5",
+    "validator": "^13.0.0",
+    "vcards-js": "^2.10.0"
+  },
+  "scripts": {
+    "lint": "jshint ./src/index.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css",
+    "minify-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css --source-map true"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "optionalDependencies": {
+    "typescript": "3.5.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "jshint": "^2.11.0"
+  }
+}

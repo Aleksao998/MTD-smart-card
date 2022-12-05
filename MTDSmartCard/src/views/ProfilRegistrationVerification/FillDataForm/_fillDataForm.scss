@@ -1,0 +1,94 @@
+.centerTabs {
+  padding-top: 20px;
+  text-align: center;
+}
+.multiTabFormUl {
+  padding: 0;
+}
+.multiTabFormLi {
+  width: 4em;
+  height: 4em;
+  text-align: center;
+  line-height: 4em;
+  border-radius: 2em;
+  background: #66615b;
+  margin: 0 1em;
+  display: inline-block;
+  color: white;
+  position: relative;
+}
+
+.multiTabFormLi::before {
+  content: "";
+  position: absolute;
+  top: 0.9em;
+  left: -4em;
+  width: 4em;
+  height: 0.2em;
+  background: #66615b;
+  z-index: -1;
+}
+
+.multiTabFormLi:first-child::before {
+  display: none;
+}
+
+.active {
+  background: #66615b;
+}
+
+.active ~ .multiTabFormLi {
+  background: rgb(187, 187, 187);
+}
+
+.active ~ .multiTabFormLi::before {
+  background: rgb(187, 187, 187);
+}
+
+.fillDataTable {
+  width: 30%;
+
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.fillDataInput {
+  width: auto;
+  border-bottom: 0.1px solid black;
+}
+.fillDataTableTab2B {
+  width: 30%;
+
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-left: 0;
+}
+.fillDataTableTab2A {
+  width: 30%;
+
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-right: 0;
+}
+.btnFillDataMargin {
+  margin-top: 91px;
+}
+@media only screen and (max-width: 600px) {
+  .fillDataTable {
+    margin-top: 25px;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .fillDataTableTab2B {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .fillDataTableTab2A {
+    margin-top: 25px;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .btnFillDataMargin {
+    margin-top: 25px;
+  }
+}

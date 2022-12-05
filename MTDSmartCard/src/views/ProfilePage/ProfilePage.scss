@@ -1,0 +1,29 @@
+.EditButtonSection {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.popoverButton {
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  background-color: #aaa7a4 !important;
+  border-color: #aaa7a4 !important;
+  margin-bottom: 0px !important;
+}
+.owner {
+  margin-top: -30px !important;
+  text-align: center;
+}
+
+.btnEditSave {
+  background-color: white !important;
+  color: #66615b !important;
+  border: 2px solid #66615b;
+}
+
+.btnEditSave:hover,
+.btnEditSave:active {
+  background-color: #66615b !important;
+  color: white !important;
+  border: 2px solid #66615b;
+}

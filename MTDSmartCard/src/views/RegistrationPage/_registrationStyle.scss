@@ -1,0 +1,214 @@
+.page-headerReg {
+  background-color: (#669db3ff);
+  min-height: 100vh;
+  padding-top: 10vh;
+}
+.page-headerLog {
+  background-color: (#669db3ff);
+  min-height: 100vh;
+  padding-top: 20vh;
+}
+
+@media only screen and (max-width: 700px) {
+  .page-headerReg {
+    padding-top: 5vh;
+    padding-bottom: 10px;
+  }
+  .page-headerLog {
+    padding-top: 20vh;
+  }
+}
+.containerCheck {
+  padding-top: 15px;
+  margin-right: 20px;
+}
+
+.titleRegistration {
+  padding: 20px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  text-align: center;
+  color: rgb(255, 255, 255) !important;
+  background-color: black;
+}
+.login {
+  padding-left: 150px !important;
+  padding-right: 150px !important;
+  margin-top: 70px !important;
+}
+.registration {
+  padding-left: 150px !important;
+  padding-right: 150px !important;
+  margin-top: 70px !important;
+}
+@media only screen and (max-width: 790px) {
+  .registration {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .login {
+    margin-top: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+.register-form {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.card-register {
+  background-color: #fff !important;
+  border-radius: 8px;
+  color: #222 !important;
+  max-width: 500px !important;
+  margin: 10px 0 70px !important;
+  min-height: 400px;
+  padding: 30px;
+}
+.form-submit {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-name {
+  padding-top: 10px;
+  padding-left: 40px;
+  width: 125px;
+  color: #555;
+  font-size: 15px;
+  font-weight: 700;
+}
+.form-value {
+  padding-right: 40px;
+}
+@media only screen and (max-width: 790px) {
+  .form-name {
+    padding-left: 0px;
+    margin-bottom: 10px;
+  }
+  .form-value {
+    padding-right: 0px;
+  }
+}
+
+.m-b-55-20 {
+  margin-bottom: 35px;
+}
+.m-b-10 {
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 790px) {
+  .m-b-55-20 {
+    margin-bottom: 10px;
+  }
+}
+
+//Iphone
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .card-register {
+    margin: 85px 0 70px !important;
+  }
+}
+
+.page-header,
+.page-header .info-title,
+.carousel-caption .title,
+.carousel-caption .info-title {
+  color: #222 !important;
+}
+
+.form-row {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input[type="date" i] {
+  padding: 14px;
+}
+
+input {
+  outline: 0;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.input--style-5 {
+  background: #e5e5e5;
+  line-height: 50px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+.input-group-desc {
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .input-group-desc {
+    margin-bottom: 40px;
+  }
+}
+
+.input-group {
+  position: relative;
+  margin: 0;
+}
+
+.label {
+  color: #555;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.label--block {
+  width: 100%;
+}
+
+.label--desc {
+  position: absolute;
+  text-transform: capitalize;
+  display: block;
+  color: #999;
+  font-size: 14px;
+  margin: 0;
+  margin-top: 7px;
+  left: 0;
+}
+
+.card {
+  border-radius: 3px;
+  background: #fff;
+}
+
+.card-5 {
+  padding-bottom: 10px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.card-5 .card-heading {
+  padding: 20px 0;
+  background: #1a1a1a;
+}
+
+.card-5 .card-body {
+  padding: 52px 85px;
+  padding-bottom: 73px;
+}
+
+@media (max-width: 767px) {
+  .card-5 .card-body {
+    padding: 40px 30px;
+    padding-bottom: 50px;
+  }
+}

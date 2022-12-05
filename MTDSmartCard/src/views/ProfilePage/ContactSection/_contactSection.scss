@@ -1,0 +1,283 @@
+.tablePadding {
+  text-align: left;
+  padding-left: 5px;
+  padding-bottom: 15px;
+}
+
+.single-service {
+  background-color: #f9f9ff;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.single-service:hover {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.single-service:hover h4 {
+  color: #235ee7;
+}
+
+.single-service h4 {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.service_area {
+  padding-top: 50px;
+  padding-bottom: 130px;
+}
+
+@media (max-width: 767px) {
+  .service_area {
+    padding-bottom: 40px;
+    padding-top: 70px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_area {
+    padding-bottom: 50px;
+  }
+}
+
+.service_area .single_service {
+  height: 470px;
+  padding: 20px 15px 20px 15px;
+  border: 2px solid #e8e8e8;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_area .single_service {
+    padding: 30px 20px;
+  }
+}
+
+.service_area .single_service h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #1f1f1f;
+  margin-top: 5px;
+  margin-bottom: 13px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_area .single_service h3 {
+    font-size: 22px;
+  }
+}
+
+.service_area .single_service p {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+.service_area .single_service:hover {
+  border: 2px solid #000000;
+}
+
+.circle-icon {
+  background: #ffc0c0;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 40px;
+}
+
+/*Change icons size here*/
+.social-icons .fas {
+  font-size: 1.8em;
+}
+/*Change icons circle size and color here*/
+.social-icons .fas {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white !important;
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fas {
+  float: left;
+  border-radius: 50%;
+}
+.social-icons.icon-rounded .fas {
+  border-radius: 5px;
+}
+.social-icons.icon-flat .fas {
+  border-radius: 0;
+}
+
+.social-icons.icon-circle .fas {
+  float: left;
+  border-radius: 50%;
+}
+
+/*Change icons size here*/
+.social-icons .fa {
+  font-size: 1.8em;
+}
+/*Change icons circle size and color here*/
+.social-icons .fa {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white !important;
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/*Change icons size here*/
+.social-icons .fab {
+  font-size: 1.8em;
+}
+/*Change icons circle size and color here*/
+.social-icons .fab {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white !important;
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fab {
+  float: left;
+  border-radius: 50%;
+}
+.social-icons.icon-rounded .fab {
+  border-radius: 5px;
+}
+.social-icons.icon-flat .fab {
+  border-radius: 0;
+}
+
+.social-icons.icon-circle .fab {
+  float: left;
+  border-radius: 50%;
+}
+.social-icons.icon-circle .fa {
+  float: left;
+  border-radius: 50%;
+}
+.social-icons.icon-rounded .fa {
+  border-radius: 5px;
+}
+.social-icons.icon-flat .fa {
+  border-radius: 0;
+}
+
+.fa-thumbs-up:before {
+  color: #55bfb5;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.list-inline a {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+.contactIconTitle {
+  margin-top: -13px;
+  font-size: 15px !important;
+}
+.contactRow {
+  border-bottom: 1pt solid white;
+}
+.social-icons .fa-mobile {
+  background-color: #b5ead7;
+}
+.social-icons .fa-phone {
+  background-color: #ffb7b2;
+}
+.social-icons .fa-envelope {
+  background-color: #b19cd9;
+}
+.social-icons .fa-envelope-open {
+  background-color: #ff9aa2;
+}
+
+.social-icons .fa-facebook-f {
+  background-color: #add8e6;
+}
+.social-icons .fa-thumbs-up {
+  background-color: white;
+}
+
+.social-icons .fa-linkedin-in {
+  background-color: #6fbbd3;
+}
+.social-icons .fa-twitter {
+  background-color: #b19cd9;
+}
+.social-icons .fa-snapchat-ghost {
+  background-color: #f7f74d;
+}
+.social-icons .fa-youtube {
+  background-color: #ff6961;
+}
+.social-icons .fa-instagram {
+  background-color: rgb(221, 42, 123);
+}
+
+.social-icons .fa-whatsapp {
+  background-color: #77dd77;
+}
+.social-icons .fa-viber {
+  background-color: #b19cd9;
+}
+.social-icons .fa-home {
+  background-color: #6fbbd3;
+}
+.social-icons .fa-birthday-cake {
+  background-color: #b5ead7;
+}
+
+@media (max-width: 700px) {
+  .service_area {
+    padding-top: 20px;
+  }
+  .noPaddingProfilePage {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}

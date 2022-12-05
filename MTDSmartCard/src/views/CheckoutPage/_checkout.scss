@@ -1,0 +1,47 @@
+.checkout {
+  margin: 0 auto;
+
+  width: 80%;
+}
+.checkoutPage {
+  margin-top: 150px;
+}
+.borderBottomCart {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(233, 232, 232);
+  border-bottom-color: #669db3ff;
+}
+.bolderChartText {
+  font-weight: 400;
+}
+
+.confirmOrderHeader {
+  height: 200px;
+  background-color: #55bfb5;
+}
+.confirmOrderIcon {
+  padding-left: 20px;
+  padding-top: 40px;
+}
+.confirmOrderHeaderText {
+  margin-top: 0px;
+  margin-left: 10px;
+  color: white;
+}
+.orderDetail {
+  font-size: 17px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 600px) {
+  .marginBottomColCheckOut {
+    margin-bottom: 10px;
+  }
+  .checkout {
+    margin: 0 auto;
+
+    width: 100%;
+  }
+  .checkoutPage {
+    margin-top: 100px;
+  }
+}
